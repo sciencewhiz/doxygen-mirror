@@ -7,9 +7,6 @@ on:
         description: 'Doxygen version `rel-1.9.2`'     
         required: true
         default: 'rel-x.y.z'
-  push:
-    branches:
-    - Node20
 
 jobs:
   publish:
